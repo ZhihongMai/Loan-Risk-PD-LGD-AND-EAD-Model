@@ -11,7 +11,7 @@ This project focuses on developing a credit scoring model to assess lending risk
 
 ## ⚙️ *Methodology*
 - **Logistic Regression**:
-  - Predict the probability of default (PD) and Loss Given Default (LGD).
+  - Predict the probability of default and Loss Given Default (LGD), as default and recovery rate are binary outcomes
   - Set a threshold based on the predicted probability: clients with probabilities above the threshold are predicted to default/recovery rate, while those below are predicted to not default/none recovery rate.
   - Evaluate using ROC curve and confusion matrix.
 - **Linear Regression**:
