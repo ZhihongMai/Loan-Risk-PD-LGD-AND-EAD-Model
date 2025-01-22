@@ -10,7 +10,7 @@
 This project focuses on developing a credit scoring model to assess lending risks. It involves predicting the Probability of Default (PD), Loss Given Default (LGD), Exposure at Default (EAD), and Expected Loss (EL) using logistic and linear regression. These metrics help estimate potential losses and determine capital requirements for the bank. The project uses feature selection, data preprocessing, and dummy variable creation to build a model that calculates individual credit scores and portfolio-wide risk.
 
 ## ⚙️ *Methodology*
-Logistic Regression:
+**Logistic Regression**:
 </h1>
 
 Use logistic regression to predict the probability of default and Loss Given Default (LGD), as default and recovery rate are binary outcomes (1 for default with loss, 0 for no default and no loss). Set a threshold based on the predicted probability: clients with probabilities above the threshold are predicted to default/have a loss, while those below are predicted to not default/have no loss. Evaluate the model using the ROC curve and confusion matrix.
