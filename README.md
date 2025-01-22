@@ -15,7 +15,7 @@ This project focuses on developing a credit scoring model to assess lending risk
   - Set a threshold based on predicted probability for classifying clients.
   - Evaluate using ROC curve and confusion matrix.
 - **Linear Regression**:
-  - Capture the factors influencing loss size and predict Exposure at Default (EAD).
+  - Capture the factors influencing recovery rate and predict Exposure at Default (EAD).
   - Evaluate model performance with a correlation matrix.
 
 ## 📝 *Summary* 
