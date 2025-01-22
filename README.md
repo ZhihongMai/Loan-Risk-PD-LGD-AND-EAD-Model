@@ -12,10 +12,10 @@ This project focuses on developing a credit scoring model to assess lending risk
 ## ⚙️ *Methodology*
 **Logistic Regression**:
 </h1>
-
 Use logistic regression to predict the probability of default and Loss Given Default (LGD), as default and recovery rate are binary outcomes (1 for default with loss, 0 for no default and no loss). Set a threshold based on the predicted probability: clients with probabilities above the threshold are predicted to default/have a loss, while those below are predicted to not default/have no loss. Evaluate the model using the ROC curve and confusion matrix.
 
-Linear Regression:
+**Linear Regression**:
+</h1>
 Use linear regression to capture the factors influencing loss size and predict Exposure at Default (EAD). The model provides a clear prediction of EAD based on the relationship between features and the outcome. Evaluate model performance using the correlation matrix.
 
 ## 📝 *Summary* 
